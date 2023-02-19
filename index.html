@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+
+  <div style="border: solid red 2px;" class="container">
+    <div id="h">
+      <h4>Calculator Demo Using Arrow Function:</h4>
+      <table>
+
+        <input style="margin-left:77px;text-align: center;" type="text" placeholder=" Result" id="r" disabled>
+        <tr>
+          <th>Number1:</th>
+          <td><input type="number" id="num1"></td>
+        <tr>
+          <th>Number2:</th>
+          <td><input type="number" id="num2"></td>
+        </tr>
+        </tr>
+      </table>
+      <div style="margin-left: 40px;"> <button style="width:20px;text-align: center; margin-inline: 40px;padding:2px;"
+          type="number" id="add" onclick="add()">+</button>
+
+        <button id="g" type="number"
+          style="width:20px;text-align: center;padding:2px; margin-inline: 30px; margin-left:-7px;"
+          onclick="sub()">-</button>
+
+        <button style="width:20px;text-align: center;padding:2px;margin-left:-10px;    " type="number" id="mul"
+          onclick="multiply()">*</button>
+
+        <button style="width:20px;text-align: center; padding:2px;margin-left:7px;" type="number" id="d"
+          onclick="divide()">/</button>
+        
+        <button style="width:20px;text-align: center; padding:2px;margin-left:8px;" type="number" id="mod"
+          onclick="mod()">%</button>
+      </div>
+
+
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+  <script src="script.js"></script>
+</body>
+
+</html>
